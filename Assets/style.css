@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.header {
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./images/Stars.gif);
+    background-size: cover;
+    color: hsl(28, 47%, 34%);
+    height: 250px;
+}
+
+.header img:first-child {
+    max-height: 220px;
+    border-style: solid;
+    border-color: hsl(36, 60%, 28%);
+    float: left;
+}
+
+.header h1 {
+    font-size: 48px;
+    text-align: left;
+    display:inline-flex;
+    padding-top: 40px;
+    margin-right: 700px;
+    padding-left: 30px;
+    width: 100px;
+    word-spacing: 100px;
+}
+
+.header nav {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; 
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.header p {
+    color: #ffffff;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; 
+    margin-right: 20px;
+    display: grid;
+}
+
+input{
+    background-color: #000000;
+    color: #ce7e28;
+    margin-right: 20px;
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url("./images/Ferrari.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 1235px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content img {
+    max-height: 150px;
+}
+
+.services {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.services img {
+    max-height: 220px;
+    margin-bottom: 200px;
+}
+
+
+.services h2 {
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+.sidebox {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #393939;
+    color: #ffffff;
+}
+
+.sidebox h3 {
+    color:#987a5a;
+}
+
+.sidebox strong {
+    color:hsl(28, 53%, 51%)
+}
+
+.sidebox li {
+    margin-top: 230px;
+    display: grid;
+}
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.side h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.side-about img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.aside-contact img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer h4 {
+    font-size: 20px;
+}
