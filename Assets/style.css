@@ -162,6 +162,7 @@ h3 {
 .aside-about img {
     display: block;
     margin: 10px auto;
+    max-width: 215px;
     width: 215px;
     max-height: 100px;
 }
