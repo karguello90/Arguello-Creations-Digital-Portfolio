@@ -136,15 +136,17 @@ p {
 
 .sidebox h3 {
     color:#987a5a;
+    ;
 }
 
 .sidebox strong {
-    color:hsl(28, 53%, 51%)
+    color:hsl(28, 53%, 51%);
 }
 
 .sidebox li {
     margin-top: 230px;
     display: grid;
+    margin-top: 80px;
 }
 
 .benefit {
@@ -152,21 +154,16 @@ p {
     color: #ffffff;
 }
 
-.side h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.side-about img {
+.aside-about img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
-}
-
-.aside-contact img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    width: 215px;
+    max-height: 100px;
 }
 
 .footer {
