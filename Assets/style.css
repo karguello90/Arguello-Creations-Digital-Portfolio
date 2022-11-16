@@ -26,6 +26,7 @@ body {
     border-style: solid;
     border-width: 4px;
     border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(65, 9, 9);
 }
 
 .header h1 {
@@ -114,6 +115,7 @@ p {
     height: 300px;
     background-color: #393939;
     border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
 .objectives {
@@ -123,6 +125,7 @@ p {
     height: 300px;
     background-color: #393939;
     border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
 h2 {
@@ -135,6 +138,7 @@ h2 {
     max-height: 220px;
     margin-bottom: 200px;
     border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
 .card {
@@ -164,6 +168,7 @@ h2 {
     background-color: #393939;
     color: #ffffff;
     border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
 .sidebox h3 {
@@ -196,6 +201,7 @@ h3 {
     border: #987a5a;
     border-style: solid;
     border-width: 2px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
 .footer {
