@@ -192,7 +192,7 @@ h2 {
 and (max-width: 328px)
 and (max-device-width: 480px) {
     p {
-        font-size: 24px;
+        font-size: 70px;
         color: #ffffff;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     }
