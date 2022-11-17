@@ -206,7 +206,7 @@ and (max-device-width: 480px) {
         padding-left: 15px;
         padding-top: 5px;
         width: 200px
-        height: 200px;
+        height: 800px;
         background-color: #393939;
         border-radius: 0px 15px 15px 0px;
         box-shadow: 10px 5px 5px rgb(46, 46, 45);
