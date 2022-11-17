@@ -189,13 +189,43 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+    p {
+        font-size: 24px;
+        color: #ffffff;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+    p {
+        font-size: 30px;
+        color: #ffffff;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
     .about {
         margin-bottom: 20px;
         padding-left: 15px;
         padding-top: 5px;
-        height: 450px;
+        width: 760px
+        height: 300px;
         background-color: #393939;
         border-radius: 0px 15px 15px 0px;
         box-shadow: 10px 5px 5px rgb(46, 46, 45);
     }
+
+    .Github {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 300px;
+    background-color: #393939;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
+}
+
+    .Github img {
+    max-height: 440px;
+    padding: 5;
+    margin-bottom: 200px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
+    min-height: 300px;
+    min-width: 350px;
 }
