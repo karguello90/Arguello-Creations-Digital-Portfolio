@@ -101,7 +101,26 @@ h2 {
     font-size: 36px;
 }
 
-.services {
+.about {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 400px;
+    background-color: #393939;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
+}
+
+.about img {
+    max-height: 220px;
+    margin-bottom: 20px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 10px 5px 5px rgb(46, 46, 45);
+    text-align: right;
+}
+
+.contact {
+    font-display: right;
     margin-bottom: 20px;
     padding-left: 15px;
     padding-top: 5px;
@@ -111,39 +130,11 @@ h2 {
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
-.services img {
-    max-height: 220px;
-    margin-bottom: 200px;
+.contact img {
+    max-height: 180px;
+    margin-bottom: 10px;
     border-radius: 0px 15px 15px 0px;
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
-}
-
-.objectives {
-    margin-bottom: 20px;
-    padding-left: 15px;
-    padding-top: 5px;
-    height: 300px;
-    background-color: #393939;
-    border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 5px 5px rgb(46, 46, 45);
-}
-
-.objectives img {
-    max-height: 220px;
-    margin-bottom: 200px;
-    border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 5px 5px rgb(46, 46, 45);
-}
-
-.objectives img {
-    max-height: 220px;
-    margin-bottom: 200px;
-    border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 5px 5px rgb(46, 46, 45);
-    display: inline-flex;
-}
-
-.link {
 }
 
 .Github {
@@ -158,6 +149,7 @@ h2 {
 
 .Github img {
     max-height: 220px;
+    padding: 5;
     margin-bottom: 200px;
     border-radius: 0px 15px 15px 0px;
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
@@ -165,61 +157,16 @@ h2 {
     min-width: 150px;
 }
 
-.sidebox {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: left;
-    width: 20%;
-    height: 940px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #393939;
-    color: #ffffff;
-    border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 5px 5px rgb(46, 46, 45);
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color:#987a5a;
-  }
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-  }
-
-.sidebox strong {
+.contact li {
     color:hsl(28, 53%, 51%);
-}
-
-.sidebox li {
-    margin-top: 230px;
-    display: grid;
-    margin-top: 80px;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 h3 {
     margin-bottom: 10px;
     text-align: center;
-}
-
-.aside-about img {
-    display: block;
-    margin: 10px auto;
-    max-width: 215px;
-    width: 215px;
-    max-height: 90px;
-    border-radius: 0px 15px 15px 0px;
-    border: #987a5a;
-    border-style: solid;
-    border-width: 2px;
-    box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
 .footer {
@@ -232,10 +179,4 @@ h3 {
 
 .footer h4 {
     font-size: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-}
-
-@media only screen and (min-width: 1000px) {
 }
