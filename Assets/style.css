@@ -203,6 +203,10 @@ h2 {
         margin-left: 20px;
         flex-direction: column;
     }
+    .background {
+        background-image: url(./images/Stars.gif);
+        background-size: cover;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -214,6 +218,10 @@ h2 {
         margin-left: 20px;
         flex-direction: column;
     }
+    .background {
+        background-image: url(./images/Stars.gif);
+        background-size: cover;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -224,6 +232,10 @@ h2 {
         flex: 1 1 auto;
         margin-left: 20px;
         flex-direction: column;
+    }
+    .background {
+        background-image: url(./images/Stars.gif);
+        background-size: cover;
     }
 }
 
@@ -239,5 +251,9 @@ h2 {
         flex: 1 1 auto;
         margin-left: 20px;
         flex-direction: column;
+    }
+    .background {
+        background-image: url(./images/Stars.gif);
+        background-size: cover;
     }
 }
