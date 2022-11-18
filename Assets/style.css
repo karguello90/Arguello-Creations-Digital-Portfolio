@@ -188,14 +188,14 @@ h2 {
     font-size: 20px;
 }
 
-.mobiledisplay {
-    display: flex;
-    flex-direction: column;
-}
-
 @media only screen 
 and (max-width: 328px)
 and (max-device-width: 480px) {
-   
+    .content {
+        width: 75%;
+        display: flex;
+        margin-left: 20px;
+        flex-direction: column;
+    }
 }
 
