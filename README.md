@@ -1,4 +1,4 @@
-Sbout:
+About:
 
 The objective of this project was to create a digital portfolio to promote my path as a developer. 
 
