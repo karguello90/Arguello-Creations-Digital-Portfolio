@@ -188,9 +188,7 @@ h2 {
     font-size: 20px;
 }
 
-@media only screen 
-and (max-width: 328px),
-and (max-device-width: 480px) {
+@media screen and (max-width: 1000px) {
     .content {
         width: 75%;
         display: flex;
@@ -200,7 +198,7 @@ and (max-device-width: 480px) {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (min-width: 600px) {
     .content {
         width: 75%;
         display: flex;
