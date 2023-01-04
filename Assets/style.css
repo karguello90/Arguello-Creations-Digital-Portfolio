@@ -162,14 +162,13 @@ h2 {
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
-.Github img {
-    max-height: 400px;
-    padding: 5;
+#Github img {
+    height: 400px;
+    padding: 7;
     margin-bottom: 200px;
     border-radius: 0px 15px 15px 0px;
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
-    min-height: 100px;
-    min-width: 150px;
+    max-width: 280px;
 }
 
 .contact li {
