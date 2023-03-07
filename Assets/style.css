@@ -103,8 +103,8 @@ a.glow, a.glow:hover, a.glow:focus
 .content {
     width: 90%;
     height: 1700px;
-    display:flex;
-    flex: 1 1 auto;
+    
+    
     margin-left: 50px;
     flex-direction: column;
 }
@@ -168,6 +168,7 @@ h2 {
     border-radius: 0px 15px 15px 0px;
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
     max-width: 260px;
+    display: inline-table;
 }
 
 .contact li {
