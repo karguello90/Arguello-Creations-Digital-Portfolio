@@ -6,7 +6,14 @@
 
 body {
     background-color: #000000;
+    animation: fadeIn 2.5s;
 }
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}    
+}
+  
 
 .header {
     padding: 15px;
@@ -91,20 +98,18 @@ a.glow, a.glow:hover, a.glow:focus
     min-height: 220px;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("./images/Ferrari.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 100%;
+    max-width: 92%;
     border-radius: 0px 15px 15px 0px;
 }
 
 .content {
     width: 90%;
     height: 1700px;
-    
-    
     margin-left: 50px;
     flex-direction: column;
 }
@@ -114,6 +119,7 @@ h2 {
     color: #8f846b;
     margin-bottom: 5px;
     font-size: 45px;
+    text-shadow: 5px 5px 5px rgb(27, 27, 27);
 }
 
 .about {
@@ -124,18 +130,18 @@ h2 {
     background-color: #393939;
     border-radius: 0px 15px 15px 0px;
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
+    text-align: center;
 }
 
 .about img {
-    max-height: 440px;
+    max-height: 380px;
     margin-bottom: 20px;
-    border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 5px 5px rgb(46, 46, 45);
-    text-align: right;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px rgb(28, 28, 28);
 }
 
 .contact {
-    font-display: right;
+    text-align: center;
     margin-bottom: 20px;
     padding-left: 15px;
     padding-top: 5px;
@@ -146,10 +152,11 @@ h2 {
 }
 
 .contact img {
-    max-height: 290px;
+    max-height: 300px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 0px 15px 15px 0px;
-    box-shadow: 10px 5px 5px rgb(46, 46, 45);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 5px 5px rgb(17, 17, 17);
 }
 
 .Github {
@@ -160,15 +167,20 @@ h2 {
     background-color: #393939;
     border-radius: 0px 15px 15px 0px;
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
+    text-align: center;
 }
 
 #Github img {
-    height: 400px;
-    padding: 7;
-    border-radius: 0px 15px 15px 0px;
+    height: 380px;
+    width: 100%;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 0px 10px 10px 0px;
     box-shadow: 10px 5px 5px rgb(46, 46, 45);
     max-width: 260px;
     display: inline-table;
+    text-align: center;
 }
 
 .contact li {
